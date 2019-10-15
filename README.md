@@ -35,9 +35,18 @@ The capstone will build upon the knowledge you have gained in the course in orde
 
 Using https://www.myetherwallet.com/interface/interact-with-contract
 
+11 CGV minted: https://rinkeby.etherscan.io/token/0x2AC093c5980d1cdC145f10FC7F2407B49d52E925
+
 
 ### Open Sea Marketplace
 
+The assets can be found in
+
+https://rinkeby.opensea.io/assets/vcgtoken
+
+Some items have been bought by 0x018C2daBef4904ECbd7118350A0c54DbeaE3549A
+
+Example: https://rinkeby.opensea.io/assets/0x2ac093c5980d1cdc145f10fc7f2407b49d52e925/5#bids
 
 # Installation and Testing
 
@@ -45,7 +54,10 @@ Using https://www.myetherwallet.com/interface/interact-with-contract
 npm install
 ```
 ```
+cd eth-contracts
+truffle compile
 truffle test
+truffle migrate --network rinkeby
 ```
 
 # Versions
